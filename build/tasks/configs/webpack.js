@@ -297,21 +297,16 @@ module.exports = {
 				// folder aliases
 				"root"        : pRoot,
 				"img"         : pImages,
-				"templates"   : pTemplates,
 				"fixtures"    : pTestFixtures,
 
-				// app folders
+				// app aliases
 				"config"      : r( pApp, "config" ),
-				"nwjs"        : r( pApp, "nwjs" ),
-				"locales"     : r( pApp, "locales" ),
-				"init"        : r( pApp, "init" ),
-				"services"    : r( pApp, "services" ),
-				"helpers"     : r( pApp, "helpers" ),
 				"data"        : r( pApp, "data" ),
-				"models"      : r( pApp, "models" ),
+				"init"        : r( pApp, "init" ),
+				"locales"     : r( pApp, "locales" ),
+				"nwjs"        : r( pApp, "nwjs" ),
+				"services"    : r( pApp, "services" ),
 				"ui"          : r( pApp, "ui" ),
-				"components"  : r( pApp, "components" ),
-				"store"       : r( pApp, "store" ),
 				"utils"       : r( pApp, "utils" ),
 
 				// explicit lib/module paths
